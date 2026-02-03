@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_learning/screens/simple_provider_page.dart';
+import 'package:riverpod_learning/screens/state_notifier_page.dart';
 
 void main() {
   runApp(ProviderScope(child: const MainApp()));
@@ -13,7 +13,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SimpleProviderPage(),
+      home: StateNotfierPage(),
     );
   }
 }
